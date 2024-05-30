@@ -139,7 +139,6 @@ function handle_registration_form_ajax() {
 			}
 		}
 	}
-
 	echo $result_message;
 	die(); // This is important to end the AJAX request
 }
